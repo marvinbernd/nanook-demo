@@ -38,8 +38,8 @@ class CsvWriter extends InterfaceWriter {
     return writeFile(fileName, res.join("\n"));
   }
 
-  async fetchRegisterAPI(data) {
-    const response = await fetch("http://localhost:3000/api/register", {
+  fetchRegisterAPI(data) {
+    const response = fetch("http://localhost:3000/api/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
