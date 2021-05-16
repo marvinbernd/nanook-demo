@@ -26,11 +26,11 @@ class CsvWriter extends InterfaceWriter {
         dat.confirmPassword,
       ];
 
-      await this.fetchRegisterAPI(dat).then((data) => {
-        row.push(data.status);
-      });
-
-      console.log(row);
+      await this.fetchRegisterAPI(dat)
+        .then((response) => response.json())
+        .then((data) => {
+          row.push(data.message);
+        });
 
       res.push(row.join(DELIMITER));
     }
