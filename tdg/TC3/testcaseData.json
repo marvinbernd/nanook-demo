@@ -1,0 +1,24 @@
+{
+  "tableName": "Sheet1",
+  "name": "TC3",
+  "data": {
+    "Sheet1": {
+      "9e9a1d81-32cf-4213-97f7-9d76281d0509": {
+        "email": "a@b.c",
+        "password": "password",
+        "confirmPassword": "password",
+        "firstName": "Salih",
+        "lastName": "Mai"
+      }
+    }
+  },
+  "instanceId": "9e9a1d81-32cf-4213-97f7-9d76281d0509",
+  "callTree": {
+    "instanceId": "fa917ec9-5baa-417e-86a6-5340c25d03dd",
+    "tableName": "Sheet1",
+    "testcaseName": "TC3",
+    "neverExecute": false,
+    "tags": [],
+    "children": []
+  }
+}

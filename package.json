@@ -1,0 +1,17 @@
+{
+  "name": "demo-tdg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marvin Bernd [hello@marvinbernd.de]",
+  "license": "ISC",
+  "dependencies": {
+    "@xhubio/nanook-table": "^1.1.5",
+    "@xhubiotable/logger": "^2.0.12",
+    "@xhubiotable/processor": "^2.5.6",
+    "node-fetch": "^2.6.1"
+  }
+}

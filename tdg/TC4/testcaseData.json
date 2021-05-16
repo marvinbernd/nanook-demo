@@ -1,0 +1,23 @@
+{
+  "tableName": "Sheet1",
+  "name": "TC4",
+  "data": {
+    "Sheet1": {
+      "93843dce-135a-419b-b4c3-e07a0e6bf7c3": {
+        "password": "password",
+        "confirmPassword": "password2",
+        "firstName": "Celine",
+        "lastName": "Lufft"
+      }
+    }
+  },
+  "instanceId": "93843dce-135a-419b-b4c3-e07a0e6bf7c3",
+  "callTree": {
+    "instanceId": "6dbaea49-2fd0-474c-a65b-6c6693bbc9eb",
+    "tableName": "Sheet1",
+    "testcaseName": "TC4",
+    "neverExecute": false,
+    "tags": [],
+    "children": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tableName": "Sheet1",
+  "name": "TC1",
+  "data": {
+    "Sheet1": {
+      "848fb074-e08b-4fe0-bb48-9611ccd339be": {
+        "password": "password",
+        "confirmPassword": "password",
+        "email": "Andrea.Lukoschek@gmail.com",
+        "firstName": "Andrea",
+        "lastName": "Lukoschek"
+      }
+    }
+  },
+  "instanceId": "848fb074-e08b-4fe0-bb48-9611ccd339be",
+  "callTree": {
+    "instanceId": "1c0e3a5d-fdf3-4e6f-9eb9-95e686ca1a6e",
+    "tableName": "Sheet1",
+    "testcaseName": "TC1",
+    "neverExecute": false,
+    "tags": [],
+    "children": []
+  }
+}
