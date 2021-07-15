@@ -1,0 +1,24 @@
+{
+  "tableName": "Sheet1",
+  "name": "TC5",
+  "data": {
+    "Sheet1": {
+      "fadf9089-58c5-4e4f-8091-2a17abe2c1c5": {
+        "password": "password",
+        "confirmPassword": "password2",
+        "email": "Said.Morhelfer@foo.bar",
+        "firstName": "Said",
+        "lastName": "Morhelfer"
+      }
+    }
+  },
+  "instanceId": "fadf9089-58c5-4e4f-8091-2a17abe2c1c5",
+  "callTree": {
+    "instanceId": "f87d751c-3aaf-4094-82ea-8e157d89c830",
+    "tableName": "Sheet1",
+    "testcaseName": "TC5",
+    "neverExecute": false,
+    "tags": [],
+    "children": []
+  }
+}

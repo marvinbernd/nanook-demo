@@ -3,6 +3,7 @@ const p = require("@xhubiotable/processor");
 const { LoggerMemory } = require("@xhubiotable/logger");
 const GeneratorPerson = require("./GeneratorPerson").GeneratorPerson;
 const { CsvWriter } = require("./csvWriter");
+const { JsonWriterPerson } = require("./jsonWriterPerson");
 
 async function doIt() {
   const logger = new LoggerMemory();
@@ -11,13 +12,14 @@ async function doIt() {
   const fileProcessor = await p.createDefaultFileProcessor(logger);
 
   const csvWriter = new CsvWriter({ logger });
+  const jsonWriterPerson = new JsonWriterPerson({ logger });
 
   const defaultWriter = p.createDefaultWriter(logger)[0];
 
   const processor = new p.Processor({
     logger,
     generatorRegistry: p.createDefaultGeneratorRegistry(),
-    writer: [defaultWriter, csvWriter],
+    writer: [defaultWriter, csvWriter, jsonWriterPerson],
   });
 
   const genPerson = new GeneratorPerson({ logger });
